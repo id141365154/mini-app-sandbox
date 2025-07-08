@@ -14,7 +14,7 @@ const f7params: AppProps = {
 
 export function MyApp() {
   return (
-    <App {...f7params} colorTheme="auto">
+    <App className="safe-areas" {...f7params} colorTheme="auto">
       <View main url="/" />
     </App>
   );

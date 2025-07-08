@@ -13,5 +13,14 @@ export const HomePage = () => (
     <Button size="large" mode="primary" asChild>
       <Link href="/profile/">Profile</Link>
     </Button>
+    <Button size="large" mode="primary" asChild>
+      <Link href="/search/">search</Link>
+    </Button>
+    <Button size="large" mode="primary" asChild>
+      <Link href="/modals/">Modals</Link>
+    </Button>
+    <Button size="large" mode="primary" asChild>
+      <Link href="/calendar/">calendar</Link>
+    </Button>
   </Page>
 );
