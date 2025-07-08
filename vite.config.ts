@@ -30,4 +30,5 @@ const pwa = () =>
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), pwa()],
+  base: "/mini-app-sandbox/",
 });
