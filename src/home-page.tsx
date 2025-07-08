@@ -3,7 +3,7 @@ import { Link, Navbar, Page } from "framework7-react";
 import { Cards } from "./cards";
 
 export const HomePage = () => (
-  <Page name="home">
+  <Page className="safe-areas" name="home">
     <Navbar title="Home Page" />
 
     <Cards />

@@ -406,7 +406,11 @@ export const AutocompletePage = () => {
   };
 
   return (
-    <Page onPageInit={onPageInit} onPageBeforeRemove={onPageBeforeRemove}>
+    <Page
+      className="safe-areas"
+      onPageInit={onPageInit}
+      onPageBeforeRemove={onPageBeforeRemove}
+    >
       <Navbar title="Autocomplete">
         <Subnavbar inner={false}>
           <Searchbar
