@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v3
 
       - name: Setup Node.js
@@ -23,15 +23,15 @@ jobs:
         uses: pnpm/action-setup@v2
         with:
           version: 8
-          run_install: false
+
+      - name: Verify pnpm installed
+        run: pnpm --version
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
-        shell: bash
 
       - name: Build
         run: pnpm build
-        shell: bash
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

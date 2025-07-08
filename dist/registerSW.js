@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/mini-app-sandbox/sw.js', { scope: '/mini-app-sandbox/' })})}
