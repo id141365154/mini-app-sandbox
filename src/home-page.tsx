@@ -1,12 +1,14 @@
 import { Button } from "@maxhub/max-ui";
 import { Link, Navbar, Page } from "framework7-react";
 import { Cards } from "./cards";
+import { TakePicture } from "./take-picture";
 
 export const HomePage = () => (
   <Page className="safe-areas" name="home">
     <Navbar title="Home Page" />
 
     <Cards />
+    <TakePicture />
     <Button size="large" mode="primary" asChild>
       <Link href="/about/">About Page</Link>
     </Button>
