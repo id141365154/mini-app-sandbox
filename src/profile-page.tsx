@@ -15,7 +15,7 @@ import {
 export const ProfilePage = () => {
   return (
     <Page className="safe-areas" name="about">
-      <Navbar title="Profile" />
+      <Navbar backLink title="Profile" />
       <Toolbar tabbar icons position={"bottom"}>
         <Link
           tabLink="#tab-1"

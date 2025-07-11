@@ -6,7 +6,7 @@ import { routes } from "./routes";
 
 const f7params: AppProps = {
   name: "My App", // App name
-  theme: "auto", // Automatic theme detection
+  theme: "ios", // Automatic theme detection
   // App routes
   // colorScheme: "auto",
   routes: routes,

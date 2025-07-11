@@ -76,7 +76,7 @@ export const Calendars = () => {
 
   return (
     <Page onPageInit={onPageInit} onPageBeforeRemove={onPageBeforeRemove}>
-      <Navbar title="Calendar"></Navbar>
+      <Navbar backLink title="Calendar"></Navbar>
       <Block>
         <p>
           Calendar is a touch optimized component that provides an easy way to

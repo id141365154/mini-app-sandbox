@@ -15,7 +15,7 @@ import { Link, Navbar, Page } from "framework7-react";
 export const AboutPage = () => {
   return (
     <Page name="about">
-      <Navbar title="About" />
+      <Navbar backLink title="About" />
       <MaxUI>
         <Panel mode="secondary">
           <Grid gap={12} cols={1}>

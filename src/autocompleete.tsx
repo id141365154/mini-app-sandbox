@@ -411,7 +411,7 @@ export const AutocompletePage = () => {
       onPageInit={onPageInit}
       onPageBeforeRemove={onPageBeforeRemove}
     >
-      <Navbar title="Autocomplete">
+      <Navbar backLink title="Autocomplete">
         <Subnavbar inner={false}>
           <Searchbar
             init={false}
